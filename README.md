@@ -1,16 +1,64 @@
-# React + Vite
+# 🎀 Projeto Penélope Charmosa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido utilizando React com o objetivo de apresentar informações sobre a personagem Penélope Charmosa, do desenho Corrida Maluca.
 
-Currently, two official plugins are available:
+A aplicação foi construída com componentes reutilizáveis, separando cada parte da interface para melhor organização e entendimento do código.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 💻 Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Funcionalidades
+
+- Exibição de cabeçalho com título e descrição
+- Apresentação da personagem com imagem
+- Lista de curiosidades
+- Seção explicando o motivo da escolha da personagem
+
+---
+
+## 🧩 Estrutura do projeto
+src/
+├── components/
+│ ├── Cabecalho.jsx
+│ ├── Descricao.jsx
+│ ├── Curiosidades.jsx
+│ └── Like.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+---
+
+## ▶️ Como executar o projeto
+
+1. Clone o repositório: https://github.com/gabizinhacode/penelope-charmosa.git
+2. Acesse a pasta do projeto:
+cd penelope-charmosa
+3. Instale as dependências:
+npm install
+4. Execute o projeto:
+npm run dev
+
+---
+
+## 🎨 Sobre o projeto
+
+O projeto foi desenvolvido com foco em organização de código e separação de responsabilidades utilizando componentes React.
+
+A escolha da personagem Penélope Charmosa foi feita por sua personalidade marcante, elegante e gentil, representando força e feminilidade ao mesmo tempo.
+
+---
+
+## 👩‍💻 Autora
+
+Gabriela Pereira dos Santos
+
+---
